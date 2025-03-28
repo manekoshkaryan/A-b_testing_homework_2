@@ -11,10 +11,8 @@ This project implements a multi-armed bandit experiment using two popular algori
   Uses a Bayesian approach (assuming a known reward variance) with default initial estimates (starting at 0). This method samples from the posterior to decide which arm to pull.
 
 - **Visualizations:**  
-  - **Learning Curves (plot1):**  
-    The learning process is visualized using separate subplots—one per arm—to clearly show the evolution of each arm's estimated value for each algorithm.
+  - **Learning Curves (plot1):**
   - **Cumulative Rewards (plot2):**  
-    A multi-panel plot compares the cumulative rewards of EpsilonGreedy and ThompsonSampling, and also displays the difference in their performance over time.
 
 - **Data Logging:**  
   The trial-level data (including chosen arm, reward, and algorithm) is saved into CSV files, and a summary CSV provides the final cumulative reward and regret.
